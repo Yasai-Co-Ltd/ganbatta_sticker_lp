@@ -1,0 +1,21 @@
+# IntelliJ / IDE 固有
+*.iml
+*.ipr
+*.iws
+.idea/
+*.vscode/.history
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+# .vscode/
+# 環境変数（git 管理しない）
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+/tmp/
+
+.DS_Store
