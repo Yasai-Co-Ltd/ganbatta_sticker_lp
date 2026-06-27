@@ -288,12 +288,28 @@ h3 {
   margin-bottom: 30px;
 }
 
+.section-heading-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.section-heading-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-heading-text .eyebrow {
+  margin-bottom: 4px;
+}
+
 .section-icon {
   display: inline-grid;
   place-items: center;
+  flex-shrink: 0;
   width: 60px;
   height: 60px;
-  margin-bottom: 16px;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 20px;
