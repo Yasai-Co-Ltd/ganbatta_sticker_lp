@@ -291,30 +291,18 @@ h3 {
 .section-icon {
   display: inline-grid;
   place-items: center;
-  width: 58px;
-  height: 58px;
+  width: 60px;
+  height: 60px;
   margin-bottom: 16px;
-  background: var(--surface-soft);
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 20px;
   box-shadow: 0 12px 30px rgba(93, 72, 57, .08);
 }
 
 .section-icon svg {
-  width: 32px;
-  height: 32px;
-}
-
-.section-icon--coral {
-  background: #fdeee9;
-}
-
-.section-icon--mint {
-  background: #ecf5f2;
-}
-
-.section-icon--lavender {
-  background: #f1eef8;
+  width: 40px;
+  height: 40px;
 }
 
 .section-heading p:not(.eyebrow),
